@@ -2,6 +2,7 @@ version: '3'
 
 services:
   app:
+    image: docker-learning:latest
     build:
       context: .
       args:
